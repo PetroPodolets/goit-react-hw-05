@@ -1,0 +1,14 @@
+.heading {
+    font-size: 32px;
+    margin: 0;
+    text-shadow: 2px 4px 4px rgba(250, 97, 97, 0.5);
+    color: #de5935;
+}
+
+.container {
+    padding: 0px 24px;
+    margin: 32px 0px 18px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

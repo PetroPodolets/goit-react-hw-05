@@ -1,0 +1,30 @@
+.linkMovie {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #de5935;
+    border-radius: 16px;
+    width: 320px;
+    padding: 10px;
+}
+
+.img {
+    width: 320px;
+    border-radius: 16px;
+
+}
+
+.containerInfoMovie {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px;
+    color: #f7cd46;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    align-items: center;
+}

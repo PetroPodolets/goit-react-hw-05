@@ -1,0 +1,137 @@
+.container {
+    width: 980px;
+    background-color: #de5935;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin-bottom: 36px;
+}
+
+.divDescr {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    justify-content: space-between;
+}
+
+.image {
+    width: 375px;
+    height: 562.5px;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 32px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f7cd46;
+}
+
+.userScore {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-weight: 400;
+    margin: 20px 0px 18px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #71dac7;
+}
+
+.overview {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-weight: 500;
+    margin: 12px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f7cd46;
+}
+
+.descr {
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    font-weight: 400;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #71dac7;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0px;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.navLink {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #f7cd46;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 100ms linear;
+}
+
+.active {
+    color: #6be9d2;
+}
+
+.divLinks {
+    display: flex;
+}
+
+.infoDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 90px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #de5935;
+    letter-spacing: 0.04em;
+    color: #f7cd46;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: background-color 250ms linear, color 250ms linear;
+}
+
+.back:hover {
+    color: #5ac3b0;
+    background-color: #f46841;
+
+}
+
+.linkDescr {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    top: 40px;
+    left: 20px;
+}

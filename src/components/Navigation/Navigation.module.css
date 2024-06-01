@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #de5935;
+    box-shadow: 1px 8px 10px #de5a359b;
+    display: flex;
+    align-items: center;
+    height: 52px;
+    padding: 0px 72px;
+    gap: 30px;
+
+}
+
+.link {
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #f7cd46;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: color 100ms linear;
+}
+
+.active {
+    color: #5ac3b0;
+}
+
+/* 
+
+#de5935 
+    #5ac3b0
+#f7cd46
+
+*/
